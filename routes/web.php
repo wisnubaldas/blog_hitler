@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::group(['namespace' => 'Frontend', 'as' => 'frontend.'], function () {
-    include_route_files(__DIR__.'/frontend/');
+    include_route_files(__DIR__.'/frontend/');php
 });
 
 // Auth::routes();
