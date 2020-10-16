@@ -15,5 +15,6 @@ const mix = require('laravel-mix');
 //     .postCss('resources/css/app.css', 'public/css', [
 //         //
 //     ]);
+mix.styles('front/css/pe-icon-7-stroke.css', 'public/css/pe-icon-7-stroke.css');
 mix.js('resources/js/app.js', 'public/js')
     .extract(['vue','lodash','jquery', 'bootstrap'])

@@ -1,9 +1,7 @@
-**
 
 **Aplikasi UMKM**
 -------------
 
-** 
 
 > Lebih dekat dengan Usaha Mikro Kecil Menengah Indonesia. Temukan
 > produk UKM yang unik mulai dari agrobisnis, pakaian, makanan hingga
