@@ -27,6 +27,16 @@ class CreatePasswordResetsTable extends Migration
      */
     public function down()
     {
+        /* if (Schema::hasTable('password_resets'))
+        {
+            $file = database_path('seeders/data/password_resets.csv');
+            $table = DB::table('password_resets')->get();
+            $file = fopen($file, 'a+');
+            foreach ($table as $row) {
+                fputcsv($file, (array)$row, ';');
+            }
+            fclose($file);
+        } */
         Schema::dropIfExists('password_resets');
     }
 }

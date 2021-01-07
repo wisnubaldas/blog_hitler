@@ -31,6 +31,16 @@ class CreateFailedJobsTable extends Migration
      */
     public function down()
     {
+        /* if (Schema::hasTable('failed_jobs'))
+        {
+            $file = database_path('seeders/data/failed_jobs.csv');
+            $table = DB::table('failed_jobs')->get();
+            $file = fopen($file, 'a+');
+            foreach ($table as $row) {
+                fputcsv($file, (array)$row, ';');
+            }
+            fclose($file);
+        } */
         Schema::dropIfExists('failed_jobs');
     }
 }

@@ -1,5 +1,10 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/js/manifest.js": "/js/manifest.js",
-    "/js/vendor.js": "/js/vendor.js"
+    "/assets/css/base.css": "/assets/css/base.css",
+    "/assets/js/pace.js": "/assets/js/pace.js",
+    "/assets/login-v2.demo.js": "/assets/login-v2.demo.js",
+    "/assets/js/appz.js": "/assets/js/appz.js",
+    "/blog/css/main.css": "/blog/css/main.css",
+    "/blog/css/theme/default.css": "/blog/css/theme/default.css",
+    "/blog/js/pace.js": "/blog/js/pace.js",
+    "/blog/js/appz.js": "/blog/js/appz.js"
 }

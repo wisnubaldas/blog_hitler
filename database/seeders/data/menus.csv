@@ -1,0 +1,15 @@
+id,parent_id,name,icon,level,url,module,active
+1,0,Home,"fa fa-home",level-0,/,front,0
+2,0,Berita,"fa fa-newspaper-o",level-0,/berita,front,0
+3,0,Artikel,"fa fa-jing",level-0,/artikel,front,0
+4,0,Tutorial,"fa fa-bangke",level-0,#,front,0
+5,4,PHP,"fa fa-php",level-1,/php,front,0
+6,4,SQL,"fa fa-bangke",level-1,/sql,front,0
+7,4,"Node Js","fa fa-sial",level-1,/node,front,0
+8,4,IoT,"fa sial",level-1,/iot,front,0
+9,4,Javascript,"fa fa-kol",level-1,/javascript,front,0
+10,0,Tentang,"fa fa-jing",level-0,/tentang,front,0
+11,0,Kontak,"fa fa-kkk",level-0,/kontak,front,0
+12,0,Login,"fa fa-user",level-0,/login,front,0
+13,0,Dashboard,"main-icon fa fa-dashboard",level-0,/admin/home,back,0
+14,0,Artikel,"fa fa-newspaper-o",lavel-0,/admin/artikel,back,0
