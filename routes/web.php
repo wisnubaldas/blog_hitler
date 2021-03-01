@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Crypt;
 */
 use App\Http\Controllers\Tes;
 use App\Http\Controllers\Frontend\ParalaxController;
-Route::get('/',[ParalaxController::class, 'index'])->name('index');
+// Route::get('/',[ParalaxController::class, 'index'])->name('index');
 
-Route::get('/tes',[Tes::class,'index']);
+Route::get('/',[App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('index');
 
 Route::group(['namespace' => 'Frontend', 'as' => 'frontend.','middleware'=>'menu'], function () {
     include_route_files(__DIR__.'/frontend/');
@@ -25,7 +25,7 @@ Route::group(['namespace' => 'Frontend', 'as' => 'frontend.','middleware'=>'menu
 
 Auth::routes();
 
-Route::group(['namespace' => 'Backend', 'prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth','menu']], function () {
+Route::group(['namespace' => 'Backend', 'prefix' => 'apps', 'as' => 'apps.', 'middleware' => ['auth','menu']], function () {
     include_route_files(__DIR__.'/backend/');
 });
 

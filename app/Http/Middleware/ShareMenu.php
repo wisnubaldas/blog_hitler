@@ -16,7 +16,7 @@ class ShareMenu
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->segment(1) == 'admin') {
+        if ($request->segment(1) == 'apps') {
             $menus = \App\Models\Menu::where('module','back')->get();
         }else{
             $menus = \App\Models\Menu::where('module','front')->get();
